@@ -1,0 +1,36 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Kaggle API credentials
+kaggle.json
+.kaggle/
+
+# Raw datasets
+data/raw/
+data/external/
+
+# Large dataset files
+*.tif
+*.tiff
+*.zip
+*.h5
+*.hdf5
+
+# OS files
+.DS_Store
+Thumbs.db
